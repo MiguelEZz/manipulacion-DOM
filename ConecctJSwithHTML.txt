@@ -1,0 +1,119 @@
+until now we were usign the console 
+to write the code, but in real life, developers use web apps that have html css and js
+html is the one that executes the css
+
+CONECCT JS WITH HTML
+
+in html we can white <script> 
+all inside of this label is JS
+
+TO CONNECT
+
+<script src="./script.js"> </script>
+
+in the same label but changing src whit the rute
+NOW JS CAN READ HTML
+....................................................................
+
+
+
+
+
+
+
+
+
+READING HTML FROM JS
+
+the is more ways
+
+
+	QUIERYSELECTOR
+
+this function is  same that declare a label in css
+
+const h1 = document.querySelector("h1")
+
+1 : create an variable
+2 = document.querySelector
+3 = etiquet that we want to select
+	class 		.clase
+	id    		#ids
+	header     	defect labels
+
+that is only to create vars with html elements
+we can do anything with this vars
+
+
+IN CONSOLE
+all elements of HTML have a lot of propities, one of INPUT is 
+	value
+that saves the string that is writing in this
+.
+if we write something in the INPUT
+WE CAN SEE THIS USING THE SELECTOR
+	
+	console.log(input.value)
+
+and it shows us the value that it will saving
+
+
+
+QUERYSELECTORALL
+
+SELECTS ALL ETIQUETS WITH THE SAME NAME
+the adove only selects the first one it finds
+-------------------------------------------------------------
+
+
+
+
+
+
+THERE IS MORE SELECTORS LIKE:
+
+getElementsByTagName("li")   etquet
+getElementsByClassName("card")	class
+getElementsByName("nombre")	atribute
+getElementsById("menu")		id
+
+querySelector("a")	element "only first"
+querySelectorAll("a")	element "all"
+querySelector(".card")	class
+querySelector("#card")		id
+querySelectorAll(".card")[2]	clase,[number of position]
+querySelector(".menu li")	anidador
+
+
+.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TRUCO
+WITH CONSOLE.LOG
+write the vars that we can log() in object form
+
+console.log({
+    h1,
+    p,
+    .parrafin
+    #ids
+})
+--
+   

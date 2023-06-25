@@ -1,0 +1,106 @@
+ WRITIGHT WITH HTML FROM JS
+
+TO CHANGE ATRIBUTES OF ELEMENTS FROM HTML
+USING
+
+input.value = "nuevo valor del input"
+input.margin = 92px
+
+
+------------------------------------------------------------------
+------------------------------------------------------------------
+INSERT AN IMG only WITH JS 
+
+
+const img = document.createElement("img");
+	createElement with "createElement()"
+	sage in var img
+
+img.setAttribute("src", "https://static.platzi.com/static/images/conf/logo_black@2x.png") 
+	change the valor of "src", put an image url
+
+pid.append(img);
+
+	Using "append" or "appendChild" to add the var "img" in
+	the "pid" id that before will declarated.
+
+--------------------------------------------------------------
+--------------------------------------------------------------
+
+
+---------------------------------------------------------------
+---------------------------------------------------------------
+
+CREATE AN ELEMENT IN HTML WITH JS
+
+document.createElement("img")  =  <img/>
+
+
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+	INNERHTML
+WE CAN MODIFY AND WRITE NEW, HTML ESTRUCTURE, THIS IS DANGEROUS
+
+h1.innerHTML = "patito"  == we can overwhite the var that is saving the h1 whit this comand
+	now the title is, "patito"
+
+if
+h1.innerHTML = "patito <br/> "
+
+
+
+
+
+
+	INNERTEXT
+
+H1.innerText = "patito <br/> feo";
+THIS COMMAND DON´T MODIFY THE HTML
+ALL IS ONLY TEXT
+
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+
+
+
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+
+
+TO CHANGE, ADD AND GET ATRIBUTES OF A CLASS
+
+	GET
+h1.getAttribute("class")
+	is there is a "class" this command gets his atribute (name) 
+
+
+	CLANGE
+h1.setAttribute("class", "rojo");
+	change the attribute of "class", now is "rojo"()red
+
+
+EYE:this is only for classes
+
+	ADD
+h1.classList.add("rojo")
+	add an attribute to the class
+	
+
+	REMOVE
+h1.classList.remove("verde")	
+	to remove an atribute to the class
+	
+	TUGGLE
+h1.classList.toggle("rojo")
+	depending, if it has it, it is removed, if it is not, it is added
+
+	CONTAINS
+h1.classList.contains("rojo")
+	depending, if it has it, return true, if it is not, return false
+
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+
+
+-----------------------------------------------------------------
+-----------------------------------------------------------------
